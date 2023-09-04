@@ -1,0 +1,50 @@
+@media (max-width:991px){
+    .text-content{
+        width: 100%;
+    }
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand img{
+        height: 61px;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: white;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 30px;
+        color: black;
+    }
+
+    /* banner design */
+    .top-banner{
+        padding: 150px 0 150px;
+    }
+
+    
+    /* footer */
+    .footer{
+        font-size: 13px;
+    }
+} 
+
+@media (max-width :767px){
+    h1{
+        font-size: 44px;
+    }
+    h2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* top banner */
+    .top-banner{
+        padding: 166px 0 150px;
+    }
+
+    /* footer */
+    .footer{
+        font-size: 12px;
+    }
+
+}

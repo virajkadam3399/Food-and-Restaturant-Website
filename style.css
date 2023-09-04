@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+======================
+Custom CSS Design
+======================
+*/
+h1{
+    font-size: 58px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    color: white;
+    text-shadow: 1px 0 6px #000;
+}
+
+h1 span{
+    color: orange;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: green;
+    line-height: 48px;
+}
+
+h4{
+    color: green;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+h5{
+    color: black;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.main-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    line-height: 25px;
+    background-color: orange;
+    border: 3px solid orange;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 4px;
+
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: orange;
+}
+
+.wrapper{
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+
+/*
+======================
+Header Design
+======================
+*/
+.navigation-wrap{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 10px;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+.navigation-wrap .main-btn{
+    padding: 2px 23px;
+    margin-left: 1px;
+}
+
+/* Change navbar styling on scroll */
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 2px 27px 0 rgb(0, 0, 0, 0.09);
+    transition: all 0.15s ease-in-out;
+}
+.navigation-wrap.scroll-on .nav-link{
+    color: black;
+}
+
+/*
+======================
+Top Banner Design
+======================
+*/
+.top-banner{
+    width: 100%;
+    background: url('../images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 270px 0 150px;
+}
+
+.top-banner p{
+    color: white;
+}
+
+/*
+======================
+Our Menu Design
+======================
+*/
+.our-menu .card{
+    border: none;
+}
+
+.our-menu .category-title a{
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+
+/*
+======================
+About Section Design
+======================
+*/
+.about-section{
+    background: black;
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 10px;
+}
+.about-section .text-sec{
+    padding-left: 32px;
+}
+
+/*
+======================
+Food Type Section Design
+======================
+*/
+.food-type{
+    padding-top: 52px;
+}
+
+/*
+======================
+Explore Food Section Design
+======================
+*/
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.explore-food .card img{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+/*
+======================
+Testimonial Section Design
+======================
+*/
+.testimonial-section{
+    background: green;
+}
+.testimonial-section h2{
+    color: white;
+}
+.testimonial-section .carousel-item{
+    margin-top: 48px;
+    padding: 160px 50px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+.testimonial-section .carousel-caption img{
+    max-width: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.testimonial-section .carousel-caption p{
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 300;
+    color: white;
+    padding: 0 2 8;
+}
+.testimonial-section .carousel-indicators{
+    bottom: -39px;
+}
+
+
+/*
+======================
+Footer Section Design
+======================
+*/
+.footer{
+    padding: 20px;
+    color: rgb(203, 198, 198);
+    background-color: black;
+    font-size: 17px;
+    text-align: center;
+}
